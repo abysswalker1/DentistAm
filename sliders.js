@@ -44,4 +44,14 @@
     }
   });
 
+  new Swiper('.reviews-slider', {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 6,
+    direction: 'vertical',
+    navigation: {
+      nextEl: '.reviews-slider__btn.swiper-next',
+      prevEl: '.reviews-slider__btn.swiper-prev',
+    }
+  })
 }());
